@@ -11,8 +11,8 @@ export default function Home() {
         <title>Colors!</title>
         <meta name="description" content="App that displays pretty colors to learn Next!" />
       </Head>
-      {colors.map(color => (
-        <Link href={`/${color.name}`}>
+      {colors.map((color, index) => (
+        <Link href={`/${color.name}`} key={index} passHref>
         <h2>{color.name}</h2>
         </Link>
       ))}
