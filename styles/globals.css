@@ -1,0 +1,19 @@
+/* global.css */
+html,
+body, #__next, .color-page {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  position: absolute;
+  display: block;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.color-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
